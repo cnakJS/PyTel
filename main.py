@@ -309,13 +309,3 @@ async def run_program(
 
 if __name__ == "__main__":
     main_entrypoint()
-
-
-./build set php1_mode php-fpm
-./build set php2_mode php-fpm
-./build set php3_mode php-fpm
-./build set php4_mode php-fpm
-./build set php1_release 8.1
-./build set php2_release 7.4
-./build set php3_release 8.2
-./build set php4_release 8.0
